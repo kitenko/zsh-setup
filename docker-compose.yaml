@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  zsh:
+    build: .
+    container_name: zsh_test
+    volumes:
+      - .:/app
+    tty: true
